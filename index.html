@@ -22,11 +22,14 @@
     </style>
 </head>
 <body class="font-manrope">
-<!-- navbar  -->
-<nav class="max-w-screen-2xl bg-gradient-to-b from-[#E9E9E9] to-[#FFFFFF] ">
+<!-- navbar & banner -->
+ 
+<nav class="max-w-screen-2xl mx-auto bg-gradient-to-b from-[#e9e9e9c3] to-[#ffffff]">
+<!-- navbar -->
     <div class="navbar  w-[90%]  mx-auto py-8">
-        <div class="navbar-start space-x-4"> 
-            <a class="rounded-full  btn-circle  bg-[#ABEF5F] "><i class="fa-solid fa-arrow-up rotate-45 text-xl relative left-4 top-2"></i></a>
+        <div class="navbar-start -space-x-1 "> 
+            <div class="w-10 h-10 bg-[#ABEF5F]  rounded-full"></div>
+            <i class="fa-solid fa-arrow-up rotate-45 relative text-2xl -left-6"></i>
             <h1 class="text-4xl font-bold">Rinterio</h1>          
         </div>
         <div class="navbar-center hidden lg:flex">
@@ -61,12 +64,45 @@
                 <li><a>Contact Us</a></li>
             </ul>
         </div>        
+    </div>
+
+    <!-- banner  -->   
+    <div class="w-[90%]  mx-auto py-8">
+        <div class="grid grid-cols-1 ">
+            <div class="mx-auto">
+                <img class="w-[90%]" src="image/banner.png" alt="">
+            </div>
+            <div class="space-y-10 text-center mx-auto w-[80%]">
+                <h1 class="text-6xl font-bold text-center">A barn house of this design has a striking appearance</h1>
+                <p class="w-[85%] mx-auto font-medium">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>    
+                <button class="inline-flex items-center  py-2 bg-[#ABEF5F80]  font-semibold rounded-full border-2 border-lime-300 space-x-2">
+                    <h1 class="font-bold text-xl pl-4">View Details</h1>                
+                    <span class="flex items-center ">
+                      <div class="w-8 h-8 bg-lime-400 rounded-full"></div>
+                    </span>
+                    <i class="fa-solid fa-arrow-up rotate-45 relative text-xl -left-8"></i>
+                </button>
+            </div>
+        </div>  
+    </div>
+</nav> 
+
+<!-- We design thoughtful, liveable spaces -->
+<div class="hero bg-base-200 min-h-screen">
+    <div class="hero-content flex-col lg:flex-row-reverse w-[90%]  mx-auto">
+      <img
+        src="image/Rectangle.png"
+        class="max-w-sm rounded-lg shadow-2xl" />
+      <div class="space-y-5">
+        <button class="btn bg-[#FFFFFF] rounded-full"><i class="fa-solid fa-arrow-right"></i>About Us</button>
+        <h1 class="text-5xl font-bold">We design thoughtful,<br>liveable spaces</h1>
+        <p class=" w-[90%]">
+            The barn house captivates with its blend of rustic charm and 
+            modern sophistication, featuring weathered wood, sleek metal accents.
+        </p>
       </div>
-   </nav> 
-
-<!-- banner  -->   
-
-    
+    </div>
+  </div>
     
 </body>
 </html>
