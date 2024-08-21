@@ -22,11 +22,11 @@
     </style>
 </head>
 <body class="font-manrope">
+
 <!-- navbar & banner -->
- 
 <nav class="max-w-screen-2xl mx-auto bg-gradient-to-b from-[#e9e9e9c3] to-[#ffffff]">
 <!-- navbar -->
-    <div class="navbar  w-[90%]  mx-auto py-8">
+    <div class="navbar  w-[90%]  mx-auto pt-8 ">
         <div class="navbar-start -space-x-1 "> 
             <div class="w-10 h-10 bg-[#ABEF5F]  rounded-full"></div>
             <i class="fa-solid fa-arrow-up rotate-45 relative text-2xl -left-6"></i>
@@ -67,7 +67,7 @@
     </div>
 
     <!-- banner  -->   
-    <div class="w-[90%]  mx-auto py-8">
+    <div class="w-[90%]  mx-auto pt-10 pb-14">
         <div class="grid grid-cols-1 ">
             <div class="mx-auto">
                 <img class="w-[90%]" src="image/banner.png" alt="">
@@ -88,19 +88,48 @@
 </nav> 
 
 <!-- We design thoughtful, liveable spaces -->
-<div class="hero bg-base-200 min-h-screen">
-    <div class="hero-content flex-col lg:flex-row-reverse w-[90%]  mx-auto">
-      <img
-        src="image/Rectangle.png"
-        class="max-w-sm rounded-lg shadow-2xl" />
-      <div class="space-y-5">
-        <button class="btn bg-[#FFFFFF] rounded-full"><i class="fa-solid fa-arrow-right"></i>About Us</button>
-        <h1 class="text-5xl font-bold">We design thoughtful,<br>liveable spaces</h1>
-        <p class=" w-[90%]">
+<div class="hero bg-base-200 min-h-screen py-8 md:py-16 ">
+    <div class="hero-content grid grid-cols-1 md:grid-cols-2 w-[90%] mx-auto  ">
+      
+      <div class="space-y-5 max-sm:text-center relative">
+        <img class=" max-sm:hidden absolute -left-14 -top-10" src="image/Vector.png" alt="">
+        <button class="btn bg-[#FFFFFF] rounded-full "><i class="fa-solid fa-arrow-right "></i>About Us</button>
+        <h1 class="text-4xl md:text-5xl font-bold ">We design thoughtful,<br>liveable spaces</h1>
+        <p class=" md:w-[85%] ">
             The barn house captivates with its blend of rustic charm and 
             modern sophistication, featuring weathered wood, sleek metal accents.
         </p>
+        <!-- card 1 -->
+        <div class="card card-side bg-white shadow-xl md:w-[90%] max-sm:text-left">
+            <div class="grid items-center ">
+              <img class="mx-7"
+                src="image/commercial.png"
+                alt="Commercial" />
+            </div>
+            <div class="card-body py-3 ml-4">
+              <h2 class="card-title">Commercial</h2>
+              <p>The barn house captivates with its blend of rustic charm and modern.</p>
+            </div>
+        </div>
+
+        <!-- card 2 -->
+        <div class="card card-side bg-white shadow-xl md:w-[90%] max-sm:text-left">
+            <div class="grid items-center ">
+              <img
+               class="m-6" src="image/residential.png"
+                alt="residential" />
+            </div>
+            <div class="card-body py-2 ml-4">
+              <h2 class="card-title">Residential</h2>
+              <p>The barn house captivates with its blend of rustic charm and modern.</p>
+            </div>
+        </div>
       </div>
+      <div >
+        <img 
+        src="image/Rectangle.png"
+        class="rounded-2xl shadow-2xl mx-auto" />
+      </div>      
     </div>
   </div>
     
