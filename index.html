@@ -66,14 +66,17 @@
         </div>        
     </div>
 
-    <!-- banner  -->   
+<!-- banner carousel -->
     <div class="w-[90%]  mx-auto pt-10 pb-14">
-        <div class="grid grid-cols-1 ">
+      <div class="carousel w-full">
+        <!-- slide-1 -->
+        <div id="slide1" class="carousel-item relative w-full">
+          <div class="grid grid-cols-1 ">
             <div class="mx-auto">
-                <img class="w-[90%]" src="image/banner.png" alt="">
+                <img class="w-[90%]" src="image/banner1.png" alt="">
             </div>
             <div class="space-y-10 text-center mx-auto w-[80%]">
-                <h1 class="text-6xl font-bold text-center">A barn house of this design has a striking appearance</h1>
+                <h1 class="text-6xl font-bold text-center mx-auto max-sm:w-[90%] max-sm:text-4xl">A barn house of this design has a striking appearance</h1>
                 <p class="w-[85%] mx-auto font-medium">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>    
                 <button class="inline-flex items-center  py-2 bg-[#ABEF5F80]  font-semibold rounded-full border-2 border-lime-300 space-x-2">
                     <h1 class="font-bold text-xl pl-4">View Details</h1>                
@@ -83,7 +86,61 @@
                     <i class="fa-solid fa-arrow-up rotate-45 relative text-xl -left-8"></i>
                 </button>
             </div>
-        </div>  
+          </div>
+          <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+            <a href="#slide3" class="btn btn-circle">❮</a>
+            <a href="#slide2" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+
+        <!-- slide-2 -->
+        <div id="slide2" class="carousel-item relative w-full">
+          <div class="grid grid-cols-1 ">
+            <div class="mx-auto">
+                <img class="w-[90%]" src="image/banner2.png" alt="">
+            </div>
+            <div class="space-y-10 text-center mx-auto w-[80%]">
+                <h1 class="text-6xl font-bold text-center mx-auto max-sm:w-[90%] max-sm:text-4xl">Your dream home, where comfort meets style.</h1>
+                <p class="w-[85%] mx-auto font-medium">Featuring clean lines, natural light, and flexible workstations, this office space is designed to foster innovation and efficiency.</p>    
+                <button class="inline-flex items-center  py-2 bg-[#ABEF5F80]  font-semibold rounded-full border-2 border-lime-300 space-x-2">
+                    <h1 class="font-bold text-xl pl-4">View Details</h1>                
+                    <span class="flex items-center ">
+                      <div class="w-8 h-8 bg-lime-400 rounded-full"></div>
+                    </span>
+                    <i class="fa-solid fa-arrow-up rotate-45 relative text-xl -left-8"></i>
+                </button>
+            </div>
+          </div>
+          <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+            <a href="#slide1" class="btn btn-circle">❮</a>
+            <a href="#slide3" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+
+        <!-- slide-3 -->
+        <div id="slide3" class="carousel-item relative w-full">
+          <div class="grid grid-cols-1 ">
+            <div class="mx-auto">
+                <img class="w-[90%]" src="image/banner3.png" alt="">
+            </div>
+            <div class="space-y-10 text-center mx-auto w-[80%]">
+                <h1 class="text-6xl font-bold text-center mx-auto max-sm:w-[90%] max-sm:text-4xl">A luxury home that blends elegance with modern comfort.</h1>
+                <p class="w-[85%] mx-auto font-medium">With its spacious interiors, high-end finishes, and thoughtful design, this home offers both luxury and warmth in every detail.</p>    
+                <button class="inline-flex items-center  py-2 bg-[#ABEF5F80]  font-semibold rounded-full border-2 border-lime-300 space-x-2">
+                    <h1 class="font-bold text-xl pl-4">View Details</h1>                
+                    <span class="flex items-center ">
+                      <div class="w-8 h-8 bg-lime-400 rounded-full"></div>
+                    </span>
+                    <i class="fa-solid fa-arrow-up rotate-45 relative text-xl -left-8"></i>
+                </button>
+            </div>
+          </div>
+          <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+            <a href="#slide2" class="btn btn-circle">❮</a>
+            <a href="#slide1" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+      </div>
     </div>
 </nav> 
 
@@ -132,7 +189,7 @@
     </div>
 </section>
 
-<!-- Success Stories: What Our Clients Say (a.k.a unique section) -->
+<!-- Success Stories: What Our Clients Say (unique section) -->
 <section class="max-w-screen-2xl mx-auto bg-base-200  py-8 md:py-10 ">
   <div class=" w-[90%] mx-auto  ">
     <div class="space-y-5 text-center">
