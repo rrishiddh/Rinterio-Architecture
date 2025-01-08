@@ -1,4 +1,4 @@
-# <img width=30px src="image/logo.png"/> RINTERIO ARCHITECTURE ✨
+# RINTERIO ARCHITECTURE ✨
 
 
 ### A brief description: 
